@@ -1,6 +1,5 @@
 // src/data.js
 
-// 1. الفئات (مطابقة لتصميمك: 8 فئات مع الأيقونات)
 export const categories = [
   { _id: '1', name: 'Dream Spaces', icon: '🏰', count: '45 providers' },
   { _id: '2', name: 'Memories & Captures', icon: '📸', count: '38 providers' },
@@ -12,15 +11,14 @@ export const categories = [
   { _id: '8', name: 'Glam & Glow', icon: '💄', count: '27 providers' },
 ];
 
-// 2. الخدمات (أمثلة تتضمن الأسعار وأرقام الهواتف)
 export const listings = [
   {
     _id: '101',
     title: 'Luxury Garden Wedding Venue',
-    category: 'Venues',
+    category: 'Dream Spaces', 
     location: 'Amman, Jordan',
     price: 2500,
-    hasFixedPrice: true, // يظهر السعر
+    hasFixedPrice: true,
     rating: 4.8,
     reviews: 124,
     image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?w=800&q=80',
@@ -29,7 +27,7 @@ export const listings = [
   {
     _id: '102',
     title: 'Professional Wedding Photography',
-    category: 'Photography',
+    category: 'Memories & Captures', 
     location: 'Amman, Jordan',
     price: 800,
     hasFixedPrice: true,
@@ -41,9 +39,9 @@ export const listings = [
   {
     _id: '103',
     title: 'Gourmet Catering Services',
-    category: 'Catering',
+    category: 'Taste of Joy', 
     location: 'Amman, Jordan',
-    price: 45, // يمكن اعتباره سعر للشخص
+    price: 45,
     hasFixedPrice: true,
     rating: 4.7,
     reviews: 156,
@@ -53,10 +51,10 @@ export const listings = [
   {
     _id: '104',
     title: 'Custom Floral Decorations',
-    category: 'Decorations',
+    category: 'Decor & Vibes', 
     location: 'Amman, Jordan',
-    price: null, // لا يوجد سعر محدد
-    hasFixedPrice: false, // سيظهر "تواصل للسعر"
+    price: null,
+    hasFixedPrice: false,
     rating: 4.9,
     reviews: 42,
     image: 'https://images.unsplash.com/photo-1533090368676-1fd25485db88?w=800&q=80',
