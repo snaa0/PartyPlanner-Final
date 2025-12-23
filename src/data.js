@@ -2,14 +2,14 @@
 
 // 1. الفئات (مطابقة لتصميمك: 8 فئات مع الأيقونات)
 export const categories = [
-  { _id: '1', name: 'Venues', icon: '🏰', count: '45 providers' },
-  { _id: '2', name: 'Photography', icon: '📸', count: '38 providers' },
-  { _id: '3', name: 'Catering', icon: '🍽️', count: '52 providers' },
-  { _id: '4', name: 'Entertainment', icon: '🎵', count: '29 providers' },
-  { _id: '5', name: 'Decorations', icon: '✨', count: '41 providers' },
-  { _id: '6', name: 'Planning', icon: '📅', count: '22 providers' },
-  { _id: '7', name: 'Equipment', icon: '🎤', count: '34 providers' },
-  { _id: '8', name: 'Beauty', icon: '💄', count: '27 providers' },
+  { _id: '1', name: 'Dream Spaces', icon: '🏰', count: '45 providers' },
+  { _id: '2', name: 'Memories & Captures', icon: '📸', count: '38 providers' },
+  { _id: '3', name: 'Taste of Joy', icon: '🍽️', count: '52 providers' },
+  { _id: '4', name: 'DJ', icon: '🎵', count: '29 providers' },
+  { _id: '5', name: 'Decor & Vibes', icon: '✨', count: '41 providers' },
+  { _id: '6', name: 'Invitations & Design', icon: '💌', count: '22 providers' },
+  { _id: '7', name: 'The Grand Zaffe', icon: '🥁', count: '34 providers' },
+  { _id: '8', name: 'Glam & Glow', icon: '💄', count: '27 providers' },
 ];
 
 // 2. الخدمات (أمثلة تتضمن الأسعار وأرقام الهواتف)
