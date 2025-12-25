@@ -15,7 +15,7 @@ export const listings = [
   {
     _id: '101',
     title: 'Luxury Garden Wedding Venue',
-    category: 'Dream Spaces', 
+    category: 'Venues', 
     location: 'Amman, Jordan',
     price: 2500,
     hasFixedPrice: true,
@@ -27,7 +27,7 @@ export const listings = [
   {
     _id: '102',
     title: 'Professional Wedding Photography',
-    category: 'Memories & Captures', 
+    category: 'Photography', 
     location: 'Amman, Jordan',
     price: 800,
     hasFixedPrice: true,
@@ -39,7 +39,7 @@ export const listings = [
   {
     _id: '103',
     title: 'Gourmet Catering Services',
-    category: 'Taste of Joy', 
+    category: 'Catering', 
     location: 'Amman, Jordan',
     price: 45,
     hasFixedPrice: true,
@@ -51,7 +51,7 @@ export const listings = [
   {
     _id: '104',
     title: 'Custom Floral Decorations',
-    category: 'Decor & Vibes', 
+    category: 'Decorations', 
     location: 'Amman, Jordan',
     price: null,
     hasFixedPrice: false,
